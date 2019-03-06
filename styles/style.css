@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0px; }
+  .header .minimo {
+    font-size: 20px; }
+  .header .divaider .navigation .navigation-ul .navigation-li {
+    margin-left: 100px;
+    font-size: 18px; }
+  .header .burger {
+    display: none; }
+
+.pic {
+  width: 80%;
+  margin: 0 auto;
+  background: red;
+  background-image: url(https://static1.squarespace.com/static/530e8d24e4b04fb5b2cdcbf1/t/59c3fd74cf81e0567c711d6f/1506016640310/50mm_converse_1000px.jpg?format=1000w);
+  height: 400px;
+  background-position: center; }
+
+.pike {
+  width: 75%;
+  margin: 0 auto;
+  background-color: aqua; }
+
+.pike h5 {
+  margin-top: 100px; }
+
+.pike h1 {
+  margin: 20px 0px;
+  font-size: 30px; }
+
+.pike h6 {
+  margin: 40px 0px; }
+
+.arti {
+  max-width: 75%;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap; }
+
+.arti img {
+  width: 380px; }
+
+.romi {
+  width: 380px; }
+
+.romi h5 {
+  margin-top: 50px; }
+
+.romi h1 {
+  margin: 20px 0px;
+  font-size: 22px; }
+
+.romi p {
+  margin: 40px 0px; }
+
+.serch {
+  background: darkgray;
+  height: 300px; }
+
+form {
+  text-align: center;
+  padding: 80px; }
+
+h2 {
+  text-align: center;
+  padding: 50px; }
+
+@media (max-width: 1024px) {
+  .arti {
+    justify-content: center; } }
+
+@media (max-width: 940px) {
+  .arti {
+    justify-content: center;
+    width: 80%; } }
+
+@media (max-width: 850px) {
+  .divaider {
+    display: none; }
+  .burger {
+    display: block; }
+  .pic {
+    background-image: url(https://abrilveja.files.wordpress.com/2016/06/jared-leto-caracterizado-de-coringa-em-primeira-foto-oficial-de-esquadrao-suicida-original2.jpeg); } }
